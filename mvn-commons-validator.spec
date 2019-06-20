@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-validator
 Version  : 1.3.1
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar
 Source0  : https://repo1.maven.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar
 Source1  : https://repo1.maven.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom
@@ -29,11 +29,11 @@ data components for the mvn-commons-validator package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-validator/r/1.3.1
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-validator/r/1.3.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-validator/commons-validator/1.3.1
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/commons-validator/commons-validator/1.3.1
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-validator/r/1.3.1
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-validator/r/1.3.1
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/commons-validator/commons-validator/1.3.1
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-validator/commons-validator/1.3.1
 
 
 %files
@@ -41,5 +41,5 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/commons-validator/r/1.3
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/commons-validator/r/1.3.1/commons-validator-1.3.1.jar
-/usr/share/java/.m2/repository/commons-validator/r/1.3.1/commons-validator-1.3.1.pom
+/usr/share/java/.m2/repository/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar
+/usr/share/java/.m2/repository/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom
